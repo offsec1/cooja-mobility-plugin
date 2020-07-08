@@ -33,8 +33,8 @@ Changing the position.dat
     * Quit Cooja
     * Replace position.dat
     * Clean and rebuild the plugin
-        cd contiki-folder/tools/cooja/apps/mobility
-        ant clean
-        ant jar
+        $ cd contiki-folder/tools/cooja/apps/mobility
+        $ ant clean
+        $ ant jar
     * Start Cooja and run your simulation...
 ---
