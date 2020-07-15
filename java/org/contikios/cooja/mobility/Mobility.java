@@ -70,7 +70,7 @@ public class Mobility extends VisPlugin {
 
     private File filePositions = null;
 
-    private MessageList log = new MessageListUI();
+    private MessageListUI log = new MessageListUI();
 
     public Mobility(Simulation simulation, final Cooja gui) {
         super("Mobility", gui, false);
