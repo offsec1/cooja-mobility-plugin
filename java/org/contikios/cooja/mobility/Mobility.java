@@ -77,7 +77,7 @@ public class Mobility extends VisPlugin {
         this.simulation = simulation;
 
         //log.addPopupMenuItem(null, true); /* Create message list popup */
-        //add(new JScrollPane(log));
+        add(new JScrollPane(log));
 
         if (!QUIET) {
             log.addMessage("Mobility plugin started at (ms): " + simulation.getSimulationTimeMillis());
