@@ -2,6 +2,7 @@
 This repository contains the mobility plugin for Cooja. 
 It helps to simulate VANETs using Cooja.
 
+![](mobility_motes.gif)
 
 ## Table of Contents
 - [Installation](#installation)
