@@ -31,11 +31,8 @@ Now start Cooja and goto Settings -> External Tools Path...
 ## Usage
 Changing the position.dat
 
-    * Quit Cooja
-    * Replace position.dat
-    * Clean and rebuild the plugin
-        $ cd contiki-folder/tools/cooja/apps/mobility
-        $ ant clean
-        $ ant jar
-    * Start Cooja and run your simulation...
+    * Quit Mobility Plugin
+    * Change position.dat
+    * Start Mobility Plugin and select your new position.dat file
+    * Start Simulation...
 ---
