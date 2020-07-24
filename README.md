@@ -19,7 +19,6 @@ Before starting Cooja you have to build the .jar file for the plugin. Run follow
 ```shell
 $ ant jar
 ```
----
 
 ### Cooja settings
 Now start Cooja and goto Settings -> External Tools Path...
@@ -27,6 +26,7 @@ Now start Cooja and goto Settings -> External Tools Path...
 - Edit DEFAULT_PROJECTDIRS
 - At the end add following string `;[CONTIKI_DIR]/tools/cooja/apps/mobility`
 - Restart Cooja and under Tools you should see a new entry called Mobility
+---
 
 ## Usage
 Changing the position.dat
